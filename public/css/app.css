@@ -1,0 +1,106 @@
+.box{
+  margin: 130px auto;
+  background-color: #222734;
+  border-radius: 30px;
+  padding: 25px;
+  box-shadow: 11px 18px 29px 8px rgba(0, 0, 0, 0.25);
+  width: 800px;
+  height: 650px;
+  left: 250px;
+  top: 465px;
+
+  /* height: 557px;
+    width: 700px;
+    left: 454px;
+    top: 228px;
+    margin: 150px auto;
+    background-color: #222734;
+    border-radius: 30px; */
+}
+
+.box .tombol {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  
+}
+.box .tombol:hover {
+  width: 60%;
+}
+
+.box .judul{
+  color: #04C35C;
+  text-align: center;
+  align-items: center;
+}
+
+/* Style Form Ajukan */
+
+
+/* Akhir Style ajukan */
+
+/* Style Form lapor */
+.box .judul2{
+  color: #C33204;
+  text-align: center;
+  align-items: center;
+}
+/* Akhir Style Form lapor */
+
+/* Style Form lapor */
+.box .judul3{
+  color: #04B8C3;
+  text-align: center;
+  align-items: center;
+}
+/* Akhir Style Form lapor */
+
+/* Style Form langganan */
+.box .judul4{
+  color: #BFC304;
+  text-align: center;
+  align-items: center;
+}
+
+.box .subs {
+  margin-top: 70px;
+  color: white;
+
+}
+
+.box .subs .tgl{
+  color:#222734;
+  padding: 8px 60px;
+  background-color: white;
+  border-radius: 30px;
+}
+/* Akhir Style Form langganan */
+
+
+
+
+
+@media only screen and (max-width: 823px) {
+
+  .box {
+    margin-top: 170px;
+    width: unset;
+    height: unset;
+    left: unset;
+    top: unset;
+  }
+
+  .box .tombol {
+  margin-top: 30px;
+  width: 85%;
+  }
+  .box .tombol:hover {
+  width: 90%;
+  }
+
+
+
+
+}
